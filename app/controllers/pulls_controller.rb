@@ -10,7 +10,7 @@ class PullsController < ApplicationController
     end
 
     respond_to do |format|
-      format.json { render json: @pull_requests }
+      format.json { render json: @pull_requests.length }
     end
   end
 

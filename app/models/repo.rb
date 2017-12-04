@@ -2,7 +2,7 @@ class Repo
   include ActiveModel::Model
   attr_accessor :all, :find
 
-  BASE_URL = "https://api.github.com/"
+  BASE_URL = "https://#{Rails.application.secrets.github_username}:#{Rails.application.secrets.github_token}@api.github.com/"
 
   def initialize(attributes={})
     super({})
