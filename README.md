@@ -1,24 +1,8 @@
-# README
+# Github Pull Analysis
+This pull analysis is built with Ruby on Rails 5.1.4.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### /pulls.json
 
-Things you may want to cover:
+The pulls route requires an `org` parameter.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Example: `/pulls.json?org=ramda`
